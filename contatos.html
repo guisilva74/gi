@@ -1,0 +1,87 @@
+<!doctype html> 
+<html Lang="pt-pt"> 
+	<head>
+		<meta charset="utf-8"/> <!--codificação--->
+		<title>site inicial</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+	</head> 
+	
+	<body> 
+			<header>
+				<h1>Segurança profissional</h1>
+			</header>
+		<!--navegação-->
+		<nav>
+			<a href="index.html">Experiência na area</a>
+			<a href="outros_cursos.html">Formações</a>
+			<a href="contatos.html">contatos</a>
+			<a href="recursos.html">Curriculum e vídeo</a>
+			
+		</nav>
+
+		<main>
+            
+            <h2>Formulário de contato</h2>
+            <p>Para pedir informações:</p>
+            <form action="mailto:agnaldosilva@sapo.pt" method="post" target="_blank">
+                <label for="nome">nome:</label>
+                <input name="name" type="text" id="nome" required></label>
+                <br>
+                <label for="telefone">Telefone:</label>
+                <input name="telefone" type="tel" id="telefone" pattern="[0-9]{9}" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input name="email" type="email" id="email"  required>
+                <br>
+                <label for="localidade">localidade:</label>
+                <select name="localidade" id="localidade">
+                    <option value="az">Ponta Delgada</option>
+                    <option value="Lagoa">Lagoa</option>
+                    <option value="rg">Ribeira Grabde</option>
+                    <option value="nd">Nordeste</option>
+                    <option value="vf">Vila Franca do Campo</option>
+                    <option value="tc">Terceira</option>
+                </select>
+                <br>
+             
+                <br>
+                
+                <br>
+                
+                <br>
+                <label for="duvidas">Dúvidas / Sugestões: </label>
+                <textarea name="duvidas" rows="4">Coloque aqui as suas questões, sugestões, dúvidass, .........</textarea>
+                <br>
+                <input type="reset" value="limpar" class="botao">
+                <input type="submit" value="enviar" class="botao">
+    
+			</form>
+
+			<img src="img/seguranca.jpg" class="imagemcontatos">
+
+		</main>	
+		<aside>
+			<h2>Outros contatos:</h2>
+			<p><strong>&#9743;</strong> 913145703</p>
+			<p><strong>&#9993;</strong> agnaldosilva@sapo.pt</p>
+			<p><strong>&#9758;</strong> São Miguél, Açores</p>
+			
+		
+
+			</ul>
+		</aside>
+
+		<footer>
+			<p class="rodape">Agnaldo Silva | 2023
+				<br>
+				<a href="https://www.facebook.com/profile.php?id=100009144187887" target= "_blank"><img src="img/fb.png"class="socialmedia"></a>
+				<a href="https://www.instagram.com/agnaldo563/" target= "_blank"><img src="img/ins.jpg"class="socialmedia"></a>
+				<a href="https://www.linkedin.com/"target= "_blank" ><img src="img/link.png"class="socialmedia"></a>
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
+		</footer>
+	</body>
+</html>
